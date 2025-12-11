@@ -1,16 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WpfAppPrimerLoginP2D
+﻿namespace WpfAppPrimerLoginP2D
 {
-    class Contrato
+    public class Contrato
     {
         public string Cargo { get; set; }
         public string Departamento { get; set; }
         public string TipoContrato { get; set; }
         public string FechaIngreso { get; set; }
+
+        public Contrato() { }
+
+        public Contrato(string cargo, string departamento, string tipoContrato, string fechaIngreso)
+        {
+            Cargo = cargo;
+            Departamento = departamento;
+            TipoContrato = tipoContrato;
+            FechaIngreso = fechaIngreso;
+        }
     }
 }

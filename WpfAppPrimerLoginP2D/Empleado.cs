@@ -17,11 +17,19 @@ namespace WpfAppPrimerLoginP2D
         public string Email { get; set; }
         public string Telefono { get; set; }
 
+        // Contrato laboral
         public Contrato DatosContrato { get; set; }
 
+        // Nuevos datos (SIMPLIFICADOS)
+        public Horario DatosHorario { get; set; }      // Antes decía "Horarios"
+        public Rol Puesto { get; set; }
+        public List<Asistencia> ListaAsistencias { get; set; } = new List<Asistencia>();
+
+        // Estudios y experiencia
         public string NivelAcademico { get; set; }
         public string Experiencia { get; set; }
 
+        // Nombre completo
         public string NombreCompleto =>
             $"{Nombre} {ApPaterno} {ApMaterno}";
     }

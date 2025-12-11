@@ -37,17 +37,21 @@
 
             <StackPanel Orientation="Horizontal" Margin="10">
                 <!-- Botón Ingresar con azul corporativo -->
+
+                <!-- Botón Registrar con azul celeste corporativo -->
+
                 <Button Content="Ingresar" Width="192" Height="40" 
                         Click="btnIngresar_Click"
                         Background="#1E90FF"
                         Foreground="White"
-                        FontWeight="Bold"/>
+                        FontWeight="Bold"
+                        Opacity="0.9"/>
 
-                <!-- Botón Registrar con azul celeste corporativo -->
                 <Button Content="Registrar" Width="221" Height="40" Margin="10,0,0,0" 
                         Click="btnRegistrar_Click"
                         Background="#003399" Foreground="White"
-                        FontWeight="Bold"/>
+                        FontWeight="Bold"
+                        Opacity="0.9"/>
             </StackPanel>
         </StackPanel>
 

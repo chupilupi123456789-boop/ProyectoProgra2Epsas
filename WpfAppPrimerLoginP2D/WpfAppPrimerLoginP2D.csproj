@@ -55,8 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Asistencia.cs" />
     <Compile Include="Contrato.cs" />
     <Compile Include="Empleado.cs" />
+    <Compile Include="Horario.cs" />
+    <Compile Include="Rol.cs" />
     <Compile Include="WindowsinAPP.xaml.cs">
       <DependentUpon>WindowsinAPP.xaml</DependentUpon>
     </Compile>

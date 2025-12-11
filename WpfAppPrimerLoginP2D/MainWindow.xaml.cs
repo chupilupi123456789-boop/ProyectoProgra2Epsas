@@ -1,5 +1,4 @@
-﻿using System;
-using System.IO;
+﻿using System.IO;
 using System.Windows;
 
 namespace WpfAppPrimerLoginP2D
@@ -36,14 +35,7 @@ namespace WpfAppPrimerLoginP2D
 
                     if (ci == ciGuardado && pass == passGuardada)
                     {
-                        Empleado emp = new Empleado
-                        {
-                            CI = ciGuardado,
-                            Contrasena = passGuardada,
-                            Nombre = nombreCompleto
-                        };
-
-                        MessageBox.Show("Bienvenido " + emp.Nombre);
+                        MessageBox.Show("Bienvenido " + nombreCompleto);
                         txtResultado.Text = "Acceso permitido.";
                         return;
                     }

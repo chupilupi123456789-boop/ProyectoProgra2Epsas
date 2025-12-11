@@ -110,19 +110,22 @@
                         Width="120" Height="50" Margin="10"
                         Background="#1E90FF" Foreground="White"
                         FontWeight="Bold"
-                        Click="btnLimpiar_Click"/>
+                        Click="btnLimpiar_Click"
+                        Opacity="0.6"/>
 
                 <Button x:Name="btnRegistrar" Content="Registrar"
                         Width="120" Height="50" Margin="10"
                         Background="#003399" Foreground="White"
                         FontWeight="Bold"
-                        Click="btnRegistrar_Click"/>
+                        Click="btnRegistrar_Click"
+                        Opacity="0.6"/>
 
                 <Button x:Name="btnVolver" Content="Volver"
                         Width="160" Height="50" Margin="10"
                         Background="#A9A9A9" Foreground="White"
                         FontWeight="Bold"
-                        Click="btnVolver_Click"/>
+                        Click="btnVolver_Click"
+                        Opacity="0.7"/>
             </StackPanel>
 
             <!-- RESULTADO -->
